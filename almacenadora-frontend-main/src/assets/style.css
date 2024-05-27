@@ -1,0 +1,11 @@
+body {
+  height: 100%;
+  background-repeat: no-repeat;
+  background: url("https://sc04.alicdn.com/kf/H5e4ccef25d7243efa3aab1558ec1f3baZ/240527529/H5e4ccef25d7243efa3aab1558ec1f3baZ.jpg")
+    no-repeat center center fixed;
+  background-size: 100% 100%;
+}
+
+.completed {
+  text-decoration: line-through;
+}

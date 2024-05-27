@@ -1,0 +1,113 @@
+
+body {
+  background-image: url('https://png.pngtree.com/background/20230522/original/pngtree-futuristic-high-tech-futuristic-simulated-light-and-dark-futuristic-futuristic-interior-picture-image_2691462.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://png.pngtree.com/background/20230522/original/pngtree-futuristic-high-tech-futuristic-simulated-light-and-dark-futuristic-futuristic-interior-picture-image_2691462.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(136, 65, 65, 0.5);
+  max-width: 800px;
+}
+
+.card-header {
+  background-color: #1e425e;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn {
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #bd2130;
+  border-color: #bd2130;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-info:hover {
+  background-color: #117a8b;
+  border-color: #117a8b;
+}
+
+.list-group-item {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.list-group-item:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.formulario-agregar {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #555;
+}
+
+.formulario-agregar label {
+  color: white;
+}
+
+.formulario-agregar input[type="text"],
+.formulario-agregar textarea,
+.formulario-agregar input[type="date"],
+.formulario-agregar select {
+  background-color: #555;
+  color: white;
+}
+
+.formulario-agregar input[type="text"]::placeholder,
+.formulario-agregar textarea::placeholder,
+.formulario-agregar input[type="date"]::placeholder {
+  color: #bbb;
+}
+
+.formulario-agregar button[type="submit"] {
+  margin-top: 10px;
+}
